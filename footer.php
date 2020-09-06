@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer bg-gray-700 text-gray-400 h-32 flex items-center justify-center">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'azela' ) ); ?>">
 				<?php
@@ -22,7 +22,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'azela' ), 'azela', '<a href="http://underscores.me/">Underscores.me</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'azela' ), 'azela', '<a href="http://codewatchers.com/en/themes/azela/">CodeWatchers</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

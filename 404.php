@@ -7,9 +7,10 @@
  * @package Azela
  */
 
-get_header();
-?>
+get_header(); ?>
 
+<div class="flex">
+	
 	<main id="primary" class="site-main">
 
 		<section class="error-404 not-found">
@@ -56,5 +57,6 @@ get_header();
 
 	</main><!-- #main -->
 
-<?php
-get_footer();
+</div>
+
+<?php get_footer();

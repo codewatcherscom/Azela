@@ -7,8 +7,9 @@
  * @package Azela
  */
 
-get_header();
-?>
+get_header(); ?>
+
+<div class="flex">
 
 	<main id="primary" class="site-main">
 
@@ -35,6 +36,8 @@ get_header();
 
 	</main><!-- #main -->
 
-<?php
-get_sidebar();
-get_footer();
+	<?php get_sidebar();?>
+
+</div>
+
+<?php get_footer();

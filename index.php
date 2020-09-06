@@ -12,10 +12,10 @@
  * @package Azela
  */
 
-get_header();
-?>
+get_header(); ?>
 
-	<main id="primary" class="site-main">
+<div class="flex -mx-4">
+	<main id="primary" class="site-main px-4">
 
 		<?php
 		if ( have_posts() ) :
@@ -52,6 +52,6 @@ get_header();
 
 	</main><!-- #main -->
 
-<?php
-get_sidebar();
-get_footer();
+	<?php get_sidebar(); ?>
+</div>
+<?php get_footer();
